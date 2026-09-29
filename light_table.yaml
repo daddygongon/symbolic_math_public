@@ -1,0 +1,13 @@
+---
+- :up:
+  - :href: symbolic_math_hc.html
+    :title: symbolic_math
+- :id: section-1
+  :title: init, log, int&diff
+  :items:
+  - :href: d1_init/readme.html
+    :src: d1_init/dummy_icon.png
+    :title: d1 0922 initial
+  - :href: d2_log/readme.html
+    :src: d2_log/dummy_icon.png
+    :title: d2 0929 logarithmic

@@ -12,6 +12,7 @@
 #- work/
 - hidden_files/
 - .git/
+- symbolic_math.org
 
 # 特定の拡張子のファイル（key, pdfファイル）を除外
 #- *.org
