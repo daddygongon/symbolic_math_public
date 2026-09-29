@@ -11,9 +11,10 @@
 # for style.css, never move from here
 [[../d1_init/readme.html][prev_button]]
 [[../symbolic_math_hc.html][up_button]]
-[[../d1_init/readme.html][next_button]]
+[[../d3_diff_int/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
+| [[file:./d2_log_head.png]]
 
 * d2_0929 対数(log)
  | グループ課題      | [[file:gw1_exp_log.ipynb]]     | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw1_exp_log.ipynb][nbviewer]] |
@@ -37,4 +38,33 @@
   1. File -> Save and Export as -> html 
   1. 保存されたhtmlをブラウザで開いて 
   1. ブラウザ側で印刷(Ctrl-p) -> 印刷画面でpdf保存
+
+* install error
+** user
+再インストールしてjupyterを立ち上げ，newを選んだところ，
+File Save Error for Untitlle.ipynbと出て，
+Failed to fetchと表示されています．何が悪いんでしょう？
+
+だったんですが，意外と深いところのエラーでした
+** user
+Anaconda promptでjupyter notebookを打ち込んだところ，
+browserが立ち上がりました．
+しかし，Saving file at Untitled1.ipynbにおいて，
+Bad file desciptorとなっています．
+epoll.cpp:73です
+
+** gemini
+pyzmq (ZeroMQ) というパッケージと
+Windows環境の相性問題（またはユーザー名が原因の問題）
+
+と特定．
+** user
+ごちゃごちゃやってたんですが，
+
+python 3.14.6だと伝えたところ
+
+** answer
+: pip install pyzmq --only-binary=:all: --upgrade --pre
+
+で解決．やれやれ
 

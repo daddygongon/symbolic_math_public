@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="jp" xml:lang="jp">
 <head>
-<!-- 2026-09-29 Tue 16:03 -->
+<!-- 2026-09-30 Wed 07:11 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>mk_stack_dir</title>
@@ -203,9 +203,18 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org10116a2">1. d2_0929 対数(log)</a>
+<li><a href="#orge9ed5a1">1. d2_0929 対数(log)</a>
 <ul>
-<li><a href="#org8e6f1c9">1.1. 注意</a></li>
+<li><a href="#org3cc8e5b">1.1. 注意</a></li>
+</ul>
+</li>
+<li><a href="#org22d57f0">2. install error</a>
+<ul>
+<li><a href="#orgc06ebdf">2.1. user</a></li>
+<li><a href="#orgca88dad">2.2. user</a></li>
+<li><a href="#orgd1ee082">2.3. gemini</a></li>
+<li><a href="#orgd5eb478">2.4. user</a></li>
+<li><a href="#org0d3232b">2.5. answer</a></li>
 </ul>
 </li>
 </ul>
@@ -214,10 +223,23 @@
 <p>
 <a href="../d1_init/readme.html">prev_button</a>
 <a href="../symbolic_math_hc.html">up_button</a>
-<a href="../d1_init/readme.html">next_button</a>
+<a href="../d3_diff_int/readme.html">next_button</a>
 </p>
-<div id="outline-container-org10116a2" class="outline-2">
-<h2 id="org10116a2"><span class="section-number-2">1.</span> d2_0929 対数(log)</h2>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="./d2_log_head.png" alt="d2_log_head.png" /></td>
+</tr>
+</tbody>
+</table>
+<div id="outline-container-orge9ed5a1" class="outline-2">
+<h2 id="orge9ed5a1"><span class="section-number-2">1.</span> d2_0929 対数(log)</h2>
 <div class="outline-text-2" id="text-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -270,8 +292,8 @@
 </tbody>
 </table>
 </div>
-<div id="outline-container-org8e6f1c9" class="outline-3">
-<h3 id="org8e6f1c9"><span class="section-number-3">1.1.</span> 注意</h3>
+<div id="outline-container-org3cc8e5b" class="outline-3">
+<h3 id="org3cc8e5b"><span class="section-number-3">1.1.</span> 注意</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>課題提出(d2_0929)
@@ -292,10 +314,78 @@
 </div>
 </div>
 </div>
+<div id="outline-container-org22d57f0" class="outline-2">
+<h2 id="org22d57f0"><span class="section-number-2">2.</span> install error</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgc06ebdf" class="outline-3">
+<h3 id="orgc06ebdf"><span class="section-number-3">2.1.</span> user</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+再インストールしてjupyterを立ち上げ，newを選んだところ，
+File Save Error for Untitlle.ipynbと出て，
+Failed to fetchと表示されています．何が悪いんでしょう？
+</p>
+
+<p>
+だったんですが，意外と深いところのエラーでした
+</p>
+</div>
+</div>
+<div id="outline-container-orgca88dad" class="outline-3">
+<h3 id="orgca88dad"><span class="section-number-3">2.2.</span> user</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Anaconda promptでjupyter notebookを打ち込んだところ，
+browserが立ち上がりました．
+しかし，Saving file at Untitled1.ipynbにおいて，
+Bad file desciptorとなっています．
+epoll.cpp:73です
+</p>
+</div>
+</div>
+<div id="outline-container-orgd1ee082" class="outline-3">
+<h3 id="orgd1ee082"><span class="section-number-3">2.3.</span> gemini</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+pyzmq (ZeroMQ) というパッケージと
+Windows環境の相性問題（またはユーザー名が原因の問題）
+</p>
+
+<p>
+と特定．
+</p>
+</div>
+</div>
+<div id="outline-container-orgd5eb478" class="outline-3">
+<h3 id="orgd5eb478"><span class="section-number-3">2.4.</span> user</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+ごちゃごちゃやってたんですが，
+</p>
+
+<p>
+python 3.14.6だと伝えたところ
+</p>
+</div>
+</div>
+<div id="outline-container-org0d3232b" class="outline-3">
+<h3 id="org0d3232b"><span class="section-number-3">2.5.</span> answer</h3>
+<div class="outline-text-3" id="text-2-5">
+<pre class="example">
+pip install pyzmq --only-binary=:all: --upgrade --pre
+</pre>
+
+<p>
+で解決．やれやれ
+</p>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Shigeto R. Nishitani</p>
-<p class="date">Created: 2026-09-29 Tue 16:03</p>
+<p class="date">Created: 2026-09-30 Wed 07:11</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

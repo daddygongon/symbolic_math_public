@@ -5,16 +5,16 @@
 #+EMAIL:     (concat "shigeto_nishitani@mac.com")
 #+LANGUAGE:  jp
 #+OPTIONS:   H:4 toc:t num:2
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style_w_link_button.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href=".style_w_link_button.css" />
 #+MACRO: dummy_link @@html:<a href="#">$1</a>@@
 
 # for style.css, never move from here
-[[../d2_log/readme.html][prev_button]]
+[[../d3_diff_int/readme.html][prev_button]]
 [[../symbolic_math_hc.html][up_button]]
 [[../d2_log/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
-| [[file:./dummy_icon.png]]
+| [[file:./d1_init.001.png]]
 
 | date          | 参考資料                  | 宿題       |
 |---------------+---------------------------+------------|

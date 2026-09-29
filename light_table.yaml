@@ -6,8 +6,12 @@
   :title: init, log, int&diff
   :items:
   - :href: d1_init/readme.html
-    :src: d1_init/dummy_icon.png
+    :src: d1_init/d1_init.001.png
     :title: d1 0922 initial
   - :href: d2_log/readme.html
-    :src: d2_log/dummy_icon.png
+    :src: d2_log/d2_log_head.png
     :title: d2 0929 logarithmic
+  - :href: d3_diff_int/readme.html
+    :src: d3_diff_int/d3_diff_int_head.png
+    :title: d3 1006 differential and integral
+
