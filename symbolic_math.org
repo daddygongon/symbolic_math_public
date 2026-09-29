@@ -1,0 +1,210 @@
+#+STARTUP: indent nolineimages content num
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* 学習目標と内容
+- 数値計算やAIでよくつかわれるpythonを用いて数学の問題を解く手法 および
+- 協同学習の手法を習得する．
+  - また，協同学習の手法の習得のため，'''ペア評価'''をおこなう．
+- [[MaplePairQuestionaires]]
+
+* 成績評価
+- 毎回のレポート(60)，中間ペア試験(20)，最終試験(20)をペアあるいはスリーマンセルで評価する．カッコ内は配点の目安．
+** 前半
+- 好きなペアで
+- 課題を予習
+- グループワークを時間内に解いて提出
+- 中間ペア試験(20点，11/24実施予定), なんでも持ち込み可，ネットも
+  - 中間ペア試験は対面実施の予定
+- 60点以下のグループは解体(2026年度は実施形態未定)
+** 後半
+- 基本は３マンセルで
+- 最終試験(20点，12/22実施予定)をペアあるいはスリーマンセルで評価する
+* 参考書
+- テキストはネットに用意します．
+- 以下は昨年度まで使っていたテキストです．
+    - 「Pythonで動かして学ぶ！あたらしい機械学習の教科書 第2版」伊藤 真，翔泳社; 第2 edition (July 18, 2019)．
+    - 機械学習の基本，Jupyter Notebookの使い方が丁寧に書かれています．
+
+* 授業でのQ and A
+- jupyter notebookでnot foundがでる．-> browserを再起動
+- 課題のコメントは? -> cellの属性をmarkdownに変えて入力
+- 印刷の集約の方法は？ -> Chromeの右上の設定から印刷を選んで，「システムダイアログを使用して印刷」を選んで，「詳細設定」でワンクリック設定アイコンで集約して印刷．
+- codeでの印刷 -> latexが入っていればエクスポートからpdfを選択すれば綺麗に出力，入れたくなければ，jupyter notebookで立ち上げてprint previewするのが良さそう．
+
+* 授業計画
+# ** [[https://kwansei-gakuin.zoom.us/j/89850585309?pwd=5SUsQ1eCzxPHG0ocsboiNMwE2oQ0YS.1][zoom]
+# トピック: 数値計算実習
+# 時刻: 2024年9月26日 11:00 AM 大阪、札幌、東京
+
+** Zoom ミーティング
+- url
+  - https://kwansei-gakuin.zoom.us/j/95157630910?pwd=T6ZEmJxUGvtH1sfhFBRZdFdgXOatf7.1
+- zoom ミーティング ID: 951 5763 0910
+- zoom パスコード: 442809
+
+- 録画ビデオ置き場
+  - https://kwanseio365-my.sharepoint.com/:f:/g/personal/cru32369_kwansei_ac_jp/IgApr-Jy7KKZT6xe1dc8xx2BAfqLWhfVV2zTYKWihY3GD-0?e=9RQ4zP
+** d1_0922 キックオフ
+
+| date          |                     | 参考資料 | 宿題                            |
+|---------------+---------------------------+----------+---------------------------------|
+| d1_0925_intro | [[pair_agreement.docx][ペア同意書]]                |          | python,                         |
+|               | [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/ETMXnjOHKZtNvRx1i4eYFKoByg9nVEzABi2xbEQSbhxbgA?e=d28wk9][c1_install]] [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/EUASKW9Xlx1JhzB8gytVmzEBJpc2xJ97dasYydlVwIR6Zw?e=Lfhxle][c2_python]]      |          | jupyter notebookをBYODにinstall |
+| d1_0925       | [[20_pair.ipynb][20年度ペア試験]] ( [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/20_pair.ipynb][viewer]] ) |          | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/first_leaf.ipynb][first_leaf]]                      |
+
+- 「ペア同意書」は来週提出してください．
+- 来週までにfirst_leafをやってきてください．
+  - 提出は来週の課題とともに1チーム一つです．
+
+** d2_0929 対数(log)
+# | グループ課題      | [[gw1_exp_log.ipynb]]     | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw1_exp_log.ipynb][nbviewer]] |
+# | 補足資料          | [[functions.ipynb]]       | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/functions.ipynb][nbviewer]] |
+# | 補足資料          | [[equals.ipynb]]          | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/equals.ipynb][nbviewer]] |
+# |-------------------+-----------------------+----------|
+# | （次週提出の)宿題 | [[differential.ipynb]]    | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/differential.ipynb][nbviewer]] |
+# | （次週提出の)宿題 | [[integral.ipynb]]        | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/integral.ipynb][nbviewer]] |
+# |-------------------+-----------------------+----------|
+# | 解答例            | [[gw1_exp_log_ans.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./gw_ans/gw1_exp_log_ans.ipynb][nbviewer]] |
+
+
+*** 注意
+- 課題提出(d2_0929)
+  - 参考資料を横目で見ながら，今週(d2_0929_log)の提出課題を仕上げてください．
+  - 先週の宿題(first_leaf.ipynb)とともに，LUNAへグループで一人がpdfとipynbをあげてください． 
+  - 相方の名前と学籍番号を提出ファイルの先頭に忘れずに記入しておいてください．
+  - 締め切りは今日(9/29)の夜中の12時です．
+
+- pdfでの出力
+  - File -> print previewで開いた画面をpdf保存
+  - ない時
+    - File -> Save and Export as -> htmlで保存されたhtmlを開いて，pdf保存
+
+** d3_1006:微積(diff and int)
+# | グループ課題   | [[gw2_diff.ipynb]]             | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw2_diff.ipynb][nbviewer]] |
+# | d3_ans         | [[gw2_diff_ans.ipynb]]         | ([[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw2_diff_ans.ipynb][viewer]]) |
+# |----------------+----------------------------+----------|
+# | 次週提出の宿題 | [[linear_algebra_scipy.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/ipynb_txt/linear_algebra_scipy.ipynb][nbviewer]] |
+
+** d4_1013:線形代数LA_numpy(Breast Cancer Detect)
+# * データの読み込みを見せる必要あり．
+# directory操作で混乱，むずいな
+# * A.wは内積．
+# * もう少し内容を簡単にしないときついかも．何をしているのかわからない．
+# * 数値計算と組み合わせるのだから，最急降下だけでもいいかも．
+# * 距離ね．．．
+線形代数の応用として，乳がんの自動検出器を作成してもらいます．
+科学的には古いアプローチですが，何をしているのかが直感的なので，
+ぜひ理解に努めてください．
+# | 今週の提出課題    | [[gw3_ex.ipynb]]     | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw3_breast_cancer.ipynb][github]] |
+# | 補足資料          | [[gw3_breast_cancer.ipynb][乳がん判別器]]     | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw3_breast_cancer.ipynb][github]] |
+# | 補足資料２        | [[python_files_and_dir.ipynb][ファイル操作]]     | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/python_files_and_dir.ipynb][github]] |
+# | 解答例　          | [[gw3_ex_ans.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw3_ex_ans.ipynb][nbviewer]] |
+# |-------------------+------------------+----------|
+# | （次週提出の)宿題 | [[linear_algebra_sympy.ipynb]] | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/ipynb_txt/linear_algebra_sympy.ipynb][la_sympy]] |
+
+#以下のdataをipynbの実行ファイルと同じdirectoryにおいて課題を進めてください．
+#- data ::  [[train_A.data]], [[train_b.data]],[[validate_A.data]], [[validate_b.data]] 
+
+** d5_1020:線形代数LA_sympy(Google PageRank)
+線形代数の計算を提供するpackageはnumpyだけでなく，sympyもあります．
+こちらの方が見た目を綺麗にできるので，ちょっとした数学的な事柄を理解するのに重宝します．
+# | グループ課題      | [[gw4_page_rank.ipynb]]                  | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_page_rank.ipynb][github]] |
+# | 補足資料          | [[gw4_pagerank_eigenvect_correct.ipynb]] | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_pagerank_eigenvect_correct.ipynb][github]] |
+# |-------------------+--------------------------------------+--------|
+# | （次週提出の)宿題 | [[equation_manipulation.ipynb]]          | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/ipynb_txt/equation_manipulation.ipynb][github]] |
+# | 解答例            | [[gw4_page_rank_ans.ipynb]]              | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_page_rank_ans.ipynb][github]] |
+
+# | グループ課題解答例 | {{attach_anchor(gw4_pagerank_eigenvect_correct.ipynb)}}([[https://github.com/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/gw4_page_rank_ans.ipynb][github]]) 全部じゃないです，eigenvectsのところだけ．{{attach_anchor(gw4_page_rank_ans.ipynb)}}([[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/gw4_pagerank_eigenvect_correct.ipynb][github]) 全ての解答例です，不具合の対応も記しています． |        |
+
+** d6_1027:数式変形
+いよいよ本格的に数式処理(解析的な解を求める)です．
+一番わかりやすい問題が，センター試験なので，それを題材にしています．
+先週の宿題の最後の二つの課題とかぶってます．
+そちらも参照して，仕上げてください．
+宿題としてやってきていても，
+再度意味を考えながら打ち込むと理解が深まりますよ．
+# | グループ課題      | [[gw5_center_exams.pdf]]                                                                           |   |
+# | （次週提出の)宿題 | [[PythonOldExams]]の中から一つか二つ選んでやってきてください．次週の課題とともに，LUNAへ一部提出． |   |
+# | 解答例        | [[gw5_center_ans.ipynb]]          | [[https://github.com/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw5_center_ans.ipynb][github]] 
+
+
+# - group提出をしていない人への注意．
+
+** d7_1110:数式変形2
+| グループ課題 | 予習課題と同じです．合計，３つか４つを今日提出してください． |
+| 宿題         | 試験に備えて，テキストを整理しておいてください．             |
+
+** d8_1117:試験リハーサル
+# | 問題        | [[24_pair.ipynb][ipynb]] , [[24_pair.pdf][pdf]]       |
+# | 参考資料    | [[24_pair_reference.pdf][pdf]]               |
+# |-------------+-------------------|
+# | 答案(sympy) | [[24_pair_ans.ipynb][ipynb]] , [[24_pair_ans.pdf][pdf]]       |
+# | 答案(numpy) | [[24_pair_ans_np.ipynb][ipynb_np]] , [[24_pair_ans_np.pdf][np.pdf]] |
+
+- sympyの初期化をするinit_sessionがうまく動かない．
+  - init_printingだけする
+    
+** d9_1124:中間試験
+# | 問題     | [[25_pair.ipynb][ipynb]] , [[25_pair.pdf][pdf]]           |
+# | 参考資料 | [[25_pair_ref_prob.pdf][問題]] ,  [[25_pair_ref_ans.pdf][答案]] 
+# | 答案     | [[24_pair_ans.ipynb][ipynb]] ( [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/exams/24_pair/24_pair_ans.ipynb][nbviewer]] ), [[24_pair_ans.pdf][pdf]] |
+# | 動画     | [[https://kwanseio365-my.sharepoint.com/:v:/g/personal/cru32369_nuc_kwansei_ac_jp/EfuMgBCVS3VDmFJEcGr-NVUB3y41r5gZbZaDCvnRtUiueA?e=NnEJL8][link]]                    |
+
+- sympyの初期化をするinit_sessionがうまく動かない．
+  - init_printingだけする
+
+- LUNAへpdfとipynbを提出
+- グループで一つ，まとめて出してください
+- 名前と学籍番号を書いておいてください
+
+- 採点は今日中を目処に行います
+- ただし，LUNAでの作業久しぶりなんで，成績のアップとか遅れるかもしれません．ご容赦ください．
+
+*** 平成24,25年度結果
+| 年度   | 成績分布                                     |  平均 |
+| 25年度 | {{attach_view(mid_term_score_25f.png)}}      | 99.13 |
+| 24年度 | {{attach_view(mid_term_exam_score_24f.png)}} | 70.77 |
+| 23年度 |                                              | 78.63 |
+
+
+- スキルが身についているかどうかを試すこの（種の）試験では，
+  - 得点分布は100点をマックスとする指数分布となります．
+  - これは，自動車免許の検定試験と同じです．
+- 学生に順位をつける模試などでは，
+  - 正規分布となるように難問(奇問)を混ぜています．
+- 社会人になったら，どちらの類の試験かを分析した上で準備してください．
+
+** d10_1201, d11_1208, d12_1215 : 最終試験準備
+- 提出物
+  - 最終の個別試験に備えて，過去問の下調べと，チームメートへのチューターをお願いします．
+  - 過去問を解いたipynb, pdfをLUNAへ提出して
+- ChatGPT使用実態調査
+  - ChatGPTなどのLLMへ問い合わせた場合，そのプロンプトと回答をできるだけそのまま張りつけてください．
+  - 試験では必須としますので，その予習になります．
+  - 何をしたかの証拠(evidence)を残す練習です．
+
+** d13_1222 最終試験(2026年度は実施)
+# | 座席表   | [[final_exam_seat_sheets_25.pdf][pdf]]              |
+# | 問題     | [[25_final.ipynb][ipynb]] , [[25_final.pdf][pdf]]      |
+# | 参考資料 | [[25_final_ref.pdf]] |
+# | 答案     | [[25_final_ans.ipynb][ipynb]] , [[25_final_ans.pdf][pdf]]      |
+# | 動画     | [[https://kwanseio365-my.sharepoint.com/:v:/g/personal/cru32369_nuc_kwansei_ac_jp/EfuMgBCVS3VDmFJEcGr-NVUB3y41r5gZbZaDCvnRtUiueA?e=NnEJL8][link]]                    |
+- 提出，採点
+  - LUNAへpdfとipynbを提出
+  - 名前と学籍番号を書いておいてください
+  - 答案は後でアップします
+  - 採点は今日中を目処に行います
+- ChatGPT等の履歴
+  - ChatGPTなどのLLMへ問い合わせた場合，そのプロンプトと回答をできるだけそのまま張りつけてください．使用実態調査の資料とさせていただきます．
+  - 何をしたかの証拠(evidence)を残す習慣付です．
+
+
+** d14_0114 :補講(2026年度は実施未定) 
+
+* 過去問
+- 過去問([[PythonOldExams]] )
+----
+- source "/Users/bob/Desktop/lecture_24f/symbolic_math/symbolic_math.org"
+
+* 23_final.ipynb

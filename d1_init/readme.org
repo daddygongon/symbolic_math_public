@@ -1,0 +1,30 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: c0_0922 initial
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style_w_link_button.css" />
+#+MACRO: dummy_link @@html:<a href="#">$1</a>@@
+
+# for style.css, never move from here
+[[../c3_linear_algebra_core/readme.html][prev_button]]
+[[../intro_info_26s.html][up_button]]
+[[../c1_outline/readme.html][next_button]]
+# for a real link rewrite usual [[\url][]]
+
+| [[file:./dummy_icon.png]]
+
+| date          | 参考資料                  | 宿題       |
+|---------------+---------------------------+------------|
+| d1_0925_intro | [[file:pair_agreement.docx][ペア同意書]]                |            |
+|               | [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/ETMXnjOHKZtNvRx1i4eYFKoByg9nVEzABi2xbEQSbhxbgA?e=d28wk9][c1_install]] [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/EUASKW9Xlx1JhzB8gytVmzEBJpc2xJ97dasYydlVwIR6Zw?e=Lfhxle][c2_python]]      |            |
+|               | [[file:20_pair.ipynb][20年度ペア試験]] ( [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/20_pair.ipynb][viewer]] ) | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/first_leaf.ipynb][first_leaf]] |
+
+* 宿題
+- python, jupyter notebookをBYODにinstall 
+- 「ペア同意書」は来週提出してください．
+- 来週までにfirst_leafをやってきてください．
+  - 提出は来週の課題とともに1チーム一つです．
+

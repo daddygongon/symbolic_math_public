@@ -1,0 +1,74 @@
+# -*- coding: utf-8 -*-
+require 'command_line/global'
+require 'colorize'
+
+SOURCE = 'symbolic_math'
+TARGET = 'DoingMathWithPython'
+ATTACH = '/Users/bob/Sites/new_ist_data/ist_data/cache/attach/DoingMathWithPython/'
+NBVIEWER = 'https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math'
+
+task :default do
+  system 'rake -T'
+end
+
+desc 'exam preparation on that day'
+task :today_exam => :convert do
+  ["cp ./exams_24/24_final.ipynb #{ATTACH}",
+   "cp ./exams_24/24_final.pdf  #{ATTACH}",
+   "cp ./exams_24/24_final_ans.ipynb #{ATTACH}",
+   "cp ./exams_24/24_final_ans.pdf #{ATTACH}",
+   "cp ./exams_24/24_final_reference.pdf #{ATTACH}",
+  ].each do |com|
+    puts com
+    system com
+  end
+  puts "cd text_dir and git push"
+  exit
+end
+
+desc 'convert'
+task :convert do
+  system "org2hiki convert #{SOURCE}.org > #{SOURCE}.hiki"
+  system "cp #{SOURCE}.hiki /Users/bob/Sites/new_ist_data/ist_data/text/#{TARGET}"
+  system "hiki touch #{TARGET}"
+end
+
+desc 'luna'
+task :luna do
+  puts "open luna on Mac"
+  system "open https://luna.kwansei.ac.jp/webapps/blackboard/execute/modulepage/view?course_id=_213462_1&cmp_tab_id=_255580_1&editMode=true&mode=cpview"
+  puts "home -> 提出済み（未採点）課題レポート"
+  puts "提出をDL -> iCloud保存"
+  puts "open on iPadして書き込み"
+  puts "答案採点の画面左下の+ボタンでupload"
+  puts "送信"
+  exit
+end
+
+desc 'oldexams'
+task :old_exams do
+  puts 'mk hiki of PythonOldExams.'.red
+  puts "Before this 'rake to_org' in text_dir/exams.".red
+  source = 'python_old_exams'
+  target = 'PythonOldExams'
+  system "org2hiki convert #{source}.org > #{source}.hiki"
+  system "cp #{source}.hiki /Users/bob/Sites/new_ist_data/ist_data/text/#{target}"
+  system "hiki touch #{target}"
+end
+
+desc 'git automatic pull and push'
+task :git_auto do
+  print "Input comments: "
+  comment = STDIN.gets.chomp 
+  comment = comment == "" ? "auto pull and push" : comment.gsub("\'", "\\'")
+  ["git add -A",
+   "git commit -m '#{comment}'",
+   "git pull origin main",
+   "git push origin main"].each do |comm|
+    puts comm.cyan
+    res = command_line comm
+    puts res.stderr.red
+    puts res.stdout.green
+  end
+end
+
