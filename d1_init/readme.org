@@ -1,6 +1,6 @@
 #+OPTIONS: ^:{}
 #+STARTUP: indent nolineimages overview num
-#+TITLE: c0_0922 initial
+#+TITLE: d1_0922 initial
 #+AUTHOR: Shigeto R. Nishitani
 #+EMAIL:     (concat "shigeto_nishitani@mac.com")
 #+LANGUAGE:  jp

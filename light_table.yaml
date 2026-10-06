@@ -7,10 +7,10 @@
   :items:
   - :href: d1_init/readme.html
     :src: d1_init/d1_init.001.png
-    :title: c0_0922 initial
+    :title: d1_0922 initial
   - :href: d2_log/readme.html
     :src: d2_log/d2_log_head.png
-    :title: mk_stack_dir
+    :title: d2_0929 対数
   - :href: d3_diff_int/readme.html
     :src: d3_diff_int/d3_diff_int_head.png
-    :title: d3 1006 differential and integral
+    :title: d3 1006 微積分

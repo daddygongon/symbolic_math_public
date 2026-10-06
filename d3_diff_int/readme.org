@@ -1,6 +1,6 @@
 #+OPTIONS: ^:{}
 #+STARTUP: indent nolineimages overview num
-#+TITLE: d3 1006 differential and integral
+#+TITLE: d3 1006 微積分
 #+AUTHOR: Shigeto R. Nishitani
 #+EMAIL:     (concat "shigeto_nishitani@mac.com")
 #+LANGUAGE:  jp
@@ -19,12 +19,15 @@
 
 * d3_1006:微積(diff and int)
 ** 教材(ipynbs)
-| 項目           | ipynb files                     | viewer   |
-|----------------+---------------------------------+----------|
-| グループ課題   | [[file:gw2_diff.ipynb]]             | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw2_diff.ipynb][nbviewer]] |
-|----------------+---------------------------------+----------|
-| 次週提出の宿題 | [[file:linear_algebra_scipy.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/ipynb_txt/linear_algebra_scipy.ipynb][nbviewer]] |
-|----------------+---------------------------------+----------|
+| 項目              | ipynb files                       | viewer   |
+|-------------------+-----------------------------------+----------|
+| （今週提出の)宿題 | [[file:../d2_log/differential.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/differential.ipynb][nbviewer]] |
+| （今週提出の)宿題 | [[file:../d2_log/integral.ipynb]]     | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/integral.ipynb][nbviewer]] |
+|-------------------+-----------------------------------+----------|
+| グループ課題      | [[file:gw2_diff.ipynb]]               | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw2_diff.ipynb][nbviewer]] |
+|-------------------+-----------------------------------+----------|
+| 次週提出の宿題    | [[file:linear_algebra_scipy.ipynb]]   | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/ipynb_txt/linear_algebra_scipy.ipynb][nbviewer]] |
+|-------------------+-----------------------------------+----------|
 
 # | d3_ans         | [[gw2_diff_ans.ipynb]]         | ([[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw2_diff_ans.ipynb][viewer]]) |
 # |----------------+----------------------------+----------|
