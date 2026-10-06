@@ -2,16 +2,15 @@
 - :up:
   - :href: symbolic_math_hc.html
     :title: symbolic_math
-- :id: section-1
-  :title: init, log, int&diff
+- :id: section-0
+  :title: セクション 0
   :items:
   - :href: d1_init/readme.html
     :src: d1_init/d1_init.001.png
-    :title: d1 0922 initial
+    :title: c0_0922 initial
   - :href: d2_log/readme.html
     :src: d2_log/d2_log_head.png
-    :title: d2 0929 logarithmic
+    :title: mk_stack_dir
   - :href: d3_diff_int/readme.html
     :src: d3_diff_int/d3_diff_int_head.png
     :title: d3 1006 differential and integral
-

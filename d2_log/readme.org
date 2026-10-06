@@ -17,14 +17,18 @@
 | [[file:./d2_log_head.png]]
 
 * d2_0929 対数(log)
- | グループ課題      | [[file:gw1_exp_log.ipynb]]     | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw1_exp_log.ipynb][nbviewer]] |
- | 補足資料          | [[file:functions.ipynb]]       | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/functions.ipynb][nbviewer]] |
- | 補足資料          | [[file:equals.ipynb]]          | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/equals.ipynb][nbviewer]] |
- |-------------------+-----------------------+----------|
- | （次週提出の)宿題 | [[file:differential.ipynb]]    | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/differential.ipynb][nbviewer]] |
- | （次週提出の)宿題 | [[file:integral.ipynb]]        | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/integral.ipynb][nbviewer]] |
- |-------------------+-----------------------+----------|
- | 解答例            | [[file:gw1_exp_log_ans.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./gw_ans/gw1_exp_log_ans.ipynb][nbviewer]] |
+** 教材(ipynbs)
+| 項目              | ipynb files                | viewer   |
+|-------------------+----------------------------+----------|
+| グループ課題      | [[file:gw1_exp_log.ipynb]]     | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw1_exp_log.ipynb][nbviewer]] |
+|-------------------+----------------------------+----------|
+| 補足資料          | [[file:functions.ipynb]]       | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/functions.ipynb][nbviewer]] |
+| 補足資料          | [[file:equals.ipynb]]          | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/equals.ipynb][nbviewer]] |
+|-------------------+----------------------------+----------|
+| （次週提出の)宿題 | [[file:differential.ipynb]]    | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/differential.ipynb][nbviewer]] |
+| （次週提出の)宿題 | [[file:integral.ipynb]]        | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./ipynb_txt/integral.ipynb][nbviewer]] |
+|-------------------+----------------------------+----------|
+| 解答例            | [[file:gw1_exp_log_ans.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./gw_ans/gw1_exp_log_ans.ipynb][nbviewer]] |
 
 
 ** 注意

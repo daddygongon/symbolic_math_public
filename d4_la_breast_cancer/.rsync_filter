@@ -10,12 +10,11 @@
 # 特定のディレクトリ（referencesディレクトリ）を除外
 #- drafts/
 #- work/
-- hidden_files/
+- references/
+- gradings/
 - hidden_*/
 - .git/
-- symbolic_math.org
-
 # 特定の拡張子のファイル（key, pdfファイル）を除外
 #- *.org
-- *.key
-- *.pdf
+#- *.key
+#- *.pdf

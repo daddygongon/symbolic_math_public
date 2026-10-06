@@ -1,4 +1,4 @@
-@import url("../theme.css");
+@import url("./.theme.css");
 
 /* これ以降に style.css の独自のスタイルを記述します */
 /* 全体レイアウト */
@@ -119,28 +119,27 @@ h3 {
 .outline-text-2 table, .outline-text-3 table {
     width: 100%;
     margin-bottom: 1.5em;
-    display: block; /* テーブルの標準挙動をリセット */
+    display: table; /* blockからtableに変更 */
+    table-layout: fixed; /* カラム幅を均等にする */
 }
 
 .outline-text-2 tbody, .outline-text-3 tbody {
-    display: block;
-    width: 100%;
+    display: table-row-group; /* デフォルトに戻す */
+    width: auto;
 }
 
 .outline-text-2 tr, .outline-text-3 tr {
-    display: flex; /* gridからflexに変更 */
-    flex-wrap: nowrap; /* 1行に収める */
-    width: 100%;
+    display: table-row; /* デフォルトに戻す */
+    width: auto;
 }
 
-.outline-text-2 td, .outline-text-3 td {
-    padding: 5px; /* セル（画像）間の余白 */
+.outline-text-2 td, .outline-text-3 td,
+.outline-text-2 th, .outline-text-3 th {
+    padding: 5px;
     vertical-align: top;
-    flex: 1 1 0; /* 均等に幅を広げる */
-    width: 100% !important; /* 1列用: 幅を100%にする */
-    max-width: 100% !important; /* 画面幅いっぱいに広げる */
+    display: table-cell; /* デフォルトに戻す */
+    width: 50%; /* 2列なので50%に設定 */
     box-sizing: border-box;
-    display: block;
 }
 
 /* 画像ギャラリー風の表示（テーブル内の画像にも適用） */
@@ -254,4 +253,11 @@ h3 {
         padding: 0;
         max-width: 100% !important; /* スマホ表示時は幅いっぱいに広げる */
     }
+}
+
+/* コードブロック (pre) のテーマ対応 */
+pre {
+    background-color: var(--muted) !important;
+    color: var(--muted-foreground) !important;
+    border: 1px solid var(--border) !important;
 }
