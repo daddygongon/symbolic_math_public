@@ -3,11 +3,17 @@
   - :href: symbolic_math_hc.html
     :title: symbolic_math
 - :id: section-0
-  :title: セクション 0
+  :title: 初期設定
   :items:
+  - :href: d0_anounce/readme.html
+    :src: d0_anounce/dummy_icon.png
+    :title: アナウンス, link
   - :href: d1_init/readme.html
     :src: d1_init/d1_init.001.png
     :title: d1_0922 initial
+- :id: section-1
+  :title: 対数，微積分
+  :items:
   - :href: d2_log/readme.html
     :src: d2_log/d2_log_head.png
     :title: d2_0929 対数

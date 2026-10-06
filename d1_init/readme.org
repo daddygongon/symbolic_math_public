@@ -9,7 +9,7 @@
 #+MACRO: dummy_link @@html:<a href="#">$1</a>@@
 
 # for style.css, never move from here
-[[../d3_diff_int/readme.html][prev_button]]
+[[../d0_anounce/readme.html][prev_button]]
 [[../symbolic_math_hc.html][up_button]]
 [[../d2_log/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]

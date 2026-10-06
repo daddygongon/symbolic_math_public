@@ -1,0 +1,30 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: アナウンス, link
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href=".style_w_link_button.css" />
+#+MACRO: dummy_link @@html:<a href="#">$1</a>@@
+
+# for style.css, never move from here
+[[../d3_diff_int/readme.html][prev_button]]
+[[../symbolic_math_hc.html][up_button]]
+[[../d1_init/readme.html][next_button]]
+# for a real link rewrite usual [[\url][]]
+
+
+* 参照url
+** zoom url
+- LUNAでアナウンスしています．
+** 録画ビデオ置き場
+- https://kwanseio365-my.sharepoint.com/:f:/g/personal/cru32369_kwansei_ac_jp/IgApr-Jy7KKZT6xe1dc8xx2BAfqLWhfVV2zTYKWihY3GD-0?e=9RQ4zP
+
+** hyper card
+- https://ist.ksc.kwansei.ac.jp/~nishitani/Lectures/2026/symbolic_math/symbolic_math_hc.html
+
+** github
+- https://github.com/daddygongon/symbolic_math
+
+
