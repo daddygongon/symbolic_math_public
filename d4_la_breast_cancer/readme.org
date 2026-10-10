@@ -1,6 +1,6 @@
 #+OPTIONS: ^:{}
 #+STARTUP: indent nolineimages overview num
-#+TITLE: mk_stack_dir
+#+TITLE: d4_1013:線形代数LA_numpy(Breast Cancer Detect)
 #+AUTHOR: Shigeto R. Nishitani
 #+EMAIL:     (concat "shigeto_nishitani@mac.com")
 #+LANGUAGE:  jp
@@ -15,5 +15,25 @@
 # for a real link rewrite usual [[\url][]]
 
 
-| [[file:./dummy_icon.png]]
+
+# * データの読み込みを見せる必要あり．
+# directory操作で混乱，むずいな
+# * A.wは内積．
+# * もう少し内容を簡単にしないときついかも．何をしているのかわからない．
+# * 数値計算と組み合わせるのだから，最急降下だけでもいいかも．
+# * 距離ね．．．
+線形代数の応用として，乳がんの自動検出器を作成してもらいます．
+科学的には古いアプローチですが，何をしているのかが直感的なので，
+ぜひ理解に努めてください．
+# | 今週の提出課題    | [[gw3_ex.ipynb]]     | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw3_breast_cancer.ipynb][github]] |
+| 補足資料          | [[file:gw3_breast_cancer.ipynb][乳がん判別器]]   
+| 補足資料２        | [[file:python_files_and_dir.ipynb][ファイル操作]]   
+|-------------------+------------------+----------|
+| （次週提出の)宿題 | [[file:linear_algebra_sympy.ipynb]]
+# | 解答例　          | [[gw3_ex_ans.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw3_ex_ans.ipynb][nbviewer]] |
+
+以下のdataをipynbの実行ファイルをdirectoryの下にwdbc_dataに
+おいて課題を進めてください．
+- data ::  [[file:wdbc_data/train_A.data][train_A.data]], [[file:wdbc_data/train_b.data][train_b.data]], [[file:wdbc_data/validate_A.data][validate_A.data]], [[file:wdbc_data/validate_b.data][validate_b.data]] 
+
 

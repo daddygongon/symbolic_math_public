@@ -20,3 +20,10 @@
   - :href: d3_diff_int/readme.html
     :src: d3_diff_int/d3_diff_int_head.png
     :title: d3 1006 微積分
+- :id: section-2
+  :title: 線形代数
+  :items:
+  - :href: d4_la_breast_cancer/readme.html
+    :src: 
+    :title: d4_la_breast_cancer
+
