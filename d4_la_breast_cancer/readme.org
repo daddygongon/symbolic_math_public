@@ -26,10 +26,10 @@
 科学的には古いアプローチですが，何をしているのかが直感的なので，
 ぜひ理解に努めてください．
 # | 今週の提出課題    | [[gw3_ex.ipynb]]     | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw3_breast_cancer.ipynb][github]] |
-| 補足資料          | [[file:gw3_breast_cancer.ipynb][乳がん判別器]]   
-| 補足資料２        | [[file:python_files_and_dir.ipynb][ファイル操作]]   
-|-------------------+------------------+----------|
-| （次週提出の)宿題 | [[file:linear_algebra_sympy.ipynb]]
+| 補足資料          | [[file:gw3_breast_cancer.ipynb][乳がん判別器]]                    | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/gw3_breast_cancer.ipynb][gw3_breast_cancer.ipynb]]    |
+| 補足資料２        | [[file:python_files_and_dir.ipynb][ファイル操作]]                    | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/python_files_and_dir.ipynb][python_files_and_dir.ipynb]] |
+|-------------------+---------------------------------+----------------------------|
+| （次週提出の)宿題 | [[file:linear_algebra_sympy.ipynb]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/linear_algebra_sympy.ipynb][linear_algebra_sympy.ipynb]] |
 # | 解答例　          | [[gw3_ex_ans.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw3_ex_ans.ipynb][nbviewer]] |
 
 以下のdataをipynbの実行ファイルをdirectoryの下にwdbc_dataに
