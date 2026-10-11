@@ -9,18 +9,19 @@
 #+MACRO: dummy_link @@html:<a href="#">$1</a>@@
 
 # for style.css, never move from here
-[[../c3_linear_algebra_core/readme.html][prev_button]]
-[[../intro_info_26s.html][up_button]]
-[[../c1_outline/readme.html][next_button]]
+[[../d3_diff_int/readme.html][prev_button]]
+[[../symbolic_math_hc.html][up_button]]
+[[../d0_anounce/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
 * 今週提出課題
 線形代数の応用として，乳がんの自動検出器を作成してもらいます．
 科学的には古いアプローチですが，何をしているのかが直感的なので，
 ぜひ理解に努めてください．
-| 今週提出の宿題 | [[file:./linear_algebra_scipy.ipynb]] |                            |
-| 補足資料２     | [[file:gw3_breast_cancer.ipynb][gw3_breast_cancer.ipynb]]           | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/gw3_breast_cancer.ipynb][gw3_brease_cancer.ipynb]]    |
-| 補足資料２     | [[file:python_files_and_dir.ipynb][ファイル操作]]                      | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/python_files_and_dir.ipynb][python_files_and_dir.ipynb]] |
+| 今週提出の宿題 | [[file:linear_algebra_scipy.ipynb][linear_algebra_scipy.ipynb]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/linear_algebra_scipy.ipynb][github]] |
+| 補足資料1      | [[file:gw3_breast_cancer.ipynb][gw3_breast_cancer.ipynb]]    | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/gw3_breast_cancer.ipynb][github]] |
+| 補足資料2      | [[file:python_files_and_dir.ipynb][ファイル操作]]               | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/python_files_and_dir.ipynb][github]] |
+
 # | 解答例　          | [[gw3_ex_ans.ipynb]] | [[https://nbviewer.org/github/daddygongon/jupyter_num_calc/blob/main/symbolic_math/./group_works/gw3_ex_ans.ipynb][nbviewer]] |
 
 以下のdataをipynbの実行ファイルをdirectoryの下にwdbc_dataに
@@ -28,6 +29,7 @@
 - data ::  [[file:wdbc_data/train_A.data][train_A.data]], [[file:wdbc_data/train_b.data][train_b.data]], [[file:wdbc_data/validate_A.data][validate_A.data]], [[file:wdbc_data/validate_b.data][validate_b.data]] 
 
 * 次週提出宿題
-| （次週提出の)宿題 | [[file:~/Desktop/lecture_26f/symbolic_math/d5_la_basic/linear_algebra_sympy.ipynb][linear_algebra_sympy.ipynb]] |                            |
-|                   | [[file:~/Desktop/lecture_26f/symbolic_math/d5_la_basic/four_spaces_qr.ipynb][four_spaces_qr.ipynb]]       |                            |
+| （次週提出の)宿題 | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/linear_algebra_sympy.ipynb][github/linear_algebra_sympy.ipynb]] |
+|                   | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/four_spaces_qr.ipynb][github/four_spaces_qr.ipynb]]       |
+
 
