@@ -1,6 +1,6 @@
 #+OPTIONS: ^:{}
 #+STARTUP: indent nolineimages overview num
-#+TITLE: mk_stack_dir
+#+TITLE: d5_1020:線形代数LA_sympy (QR vs SVD)
 #+AUTHOR: Shigeto R. Nishitani
 #+EMAIL:     (concat "shigeto_nishitani@mac.com")
 #+LANGUAGE:  jp
@@ -15,5 +15,21 @@
 # for a real link rewrite usual [[\url][]]
 
 
-| [[file:./dummy_icon.png]]
+線形代数の計算を提供するpackageはnumpyだけでなく，
+sympyもあります．
+こちらの方が見た目を綺麗にできるので，
+ちょっとした数学的な事柄を理解するのに重宝します．
+
+|--------------+-----------------------------------+---|
+| 先週の宿題   | [[file:./linear_algebra_sympy.ipynb]] |   |
+| 先週の宿題   | [[file:./four_spaces_qr.ipynb]]       |   |
+|--------------+-----------------------------------+---|
+| グループ課題 | fitting.ipynb                     |   |
+# | グループ課題      | [[gw4_page_rank.ipynb]]                  | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_page_rank.ipynb][github]] |
+# | 補足資料          | [[gw4_pagerank_eigenvect_correct.ipynb]] | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_pagerank_eigenvect_correct.ipynb][github]] |
+# |-------------------+--------------------------------------+--------|
+# | （次週提出の)宿題 | [[equation_manipulation.ipynb]]          | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/ipynb_txt/equation_manipulation.ipynb][github]] |
+# | 解答例            | [[gw4_page_rank_ans.ipynb]]              | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_page_rank_ans.ipynb][github]] |
+
+
 
