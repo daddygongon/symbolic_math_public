@@ -11,10 +11,13 @@
 # for style.css, never move from here
 [[../d3_diff_int/readme.html][prev_button]]
 [[../symbolic_math_hc.html][up_button]]
-[[../d0_anounce/readme.html][next_button]]
+[[../d5_la_basic/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
 * 今週提出課題
+| [[file:./dummy_icon.png]]
+| がん細胞の顕微鏡写真.
+
 線形代数の応用として，乳がんの自動検出器を作成してもらいます．
 科学的には古いアプローチですが，何をしているのかが直感的なので，
 ぜひ理解に努めてください．
@@ -27,6 +30,8 @@
 以下のdataをipynbの実行ファイルをdirectoryの下にwdbc_dataに
 おいて課題を進めてください．
 - data ::  [[file:wdbc_data/train_A.data][train_A.data]], [[file:wdbc_data/train_b.data][train_b.data]], [[file:wdbc_data/validate_A.data][validate_A.data]], [[file:wdbc_data/validate_b.data][validate_b.data]] 
+
+
 
 * 次週提出宿題
 | （次週提出の)宿題 | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/linear_algebra_sympy.ipynb][github/linear_algebra_sympy.ipynb]] |
