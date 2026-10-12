@@ -14,8 +14,8 @@
 [[../d0_anounce/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
-* 今週提出の課題
-| [[file:./draw_four_spaces.004.png]]
+* 線形代数のイメージ
+| [[file:./draw_four_spaces.004.png]] | [[file:./four_spaces.005.png]]
 
 線形代数の計算を提供するpackageはnumpyだけでなく，
 sympyもあります．
@@ -23,7 +23,7 @@ sympyもあります．
 ちょっとした数学的な事柄を理解するのに重宝します．
 これを使って行列のshape, 基本４空間，QR分解によるフィッティングを
 理解してもらいます．
-
+* 今週提出の課題
 |--------------+-----------------------------------+---|
 | 先週の宿題   | [[file:./linear_algebra_sympy.ipynb]] |   |
 | 先週の宿題   | [[file:./four_spaces_qr.ipynb]]       |   |
