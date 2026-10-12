@@ -25,5 +25,8 @@
   :items:
   - :href: d4_la_breast_cancer/readme.html
     :src: d4_la_breast_cancer/dummy_icon.png
-    :title: d4_la_breast_cancer
+    :title: d4 1013 la_breast_cancer
+  - :href: d5_la_basic/readme.html
+    :src: d5_la_basic/draw_four_spaces.004.png
+    :title: d5 1020 la_basic
 
