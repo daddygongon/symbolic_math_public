@@ -34,6 +34,8 @@ sympyもあります．
 # |-------------------+--------------------------------------+--------|
 # | （次週提出の)宿題 | [[equation_manipulation.ipynb]]          | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/ipynb_txt/equation_manipulation.ipynb][github]] |
 # | 解答例            | [[gw4_page_rank_ans.ipynb]]              | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_page_rank_ans.ipynb][github]] |
-
+* 参考資料
+- [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/IQCOB6Hl1QqUSqtKEtfjXRzjAfKLLc5bwzuH5RUKrHLTwKE?e=Uci1tX][行列の４基本部分空間(Strang21_four_basic_subspaces.pdf)]]
+- [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/IQDguVW_LQ4ISrubHvGqRx9JAVQ_UpqEeh753Kx-yn5se4g?e=iag40I][主成分分析の解説(Strang21_principal_comp_ana.pdf)]]
 
 
