@@ -34,6 +34,21 @@
   :type: icon
   :file_path: d5_la_basic/readme.html
   :icon_path: d5_la_basic/draw_four_spaces.004.png
+- :id: 8
+  :name: d7 equation manipulation
+  :type: icon
+  :file_path: d6_eq_manip/readme.html
+  :icon_path: d6_eq_manip/dummy_icon.png
+- :id: 9
+  :name: d7 equation manipulation 2
+  :type: icon
+  :file_path: d7_eq_manip_2/readme.html
+  :icon_path: d7_eq_mainp_2/dummy_icon.png
+- :id: 10
+  :name: d7 old exams
+  :type: icon
+  :file_path: d7_old_exams/readme.html
+  :icon_path: d7_old_exams/dummy_icon.png
 :edges:
 - :from: 1
   :to: 2
@@ -47,3 +62,9 @@
   :to: 6
 - :from: 1
   :to: 7
+- :from: 1
+  :to: 8
+- :from: 1
+  :to: 9
+- :from: 1
+  :to: 10

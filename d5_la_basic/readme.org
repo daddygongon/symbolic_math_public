@@ -11,7 +11,7 @@
 # for style.css, never move from here
 [[../d4_la_breast_cancer/readme.html][prev_button]]
 [[../canvas.html][up_button]]
-[[../d0_anounce/readme.html][next_button]]
+[[../d6_eq_manip/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
 * 線形代数のイメージ

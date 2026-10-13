@@ -29,4 +29,16 @@
   - :href: d5_la_basic/readme.html
     :src: d5_la_basic/draw_four_spaces.004.png
     :title: d5 1020 la_basic
+- :id: section-2
+  :title: 数式変形
+  :items:
+  - :href: d6_eq_manip/readme.html
+    :src: d6_eq_manip/dummy_icon.png
+    :title: d7 equation manipulation
+  - :href: d7_eq_manip_2/readme.html
+    :src: d7_eq_mainp_2/dummy_icon.png
+    :title: d7 equation manipulation 2
+  - :href: d7_old_exams/readme.html
+    :src: d7_old_exams/dummy_icon.png
+    :title: d7 old exams
 

@@ -1,0 +1,37 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: mk_stack_dir
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/setup/html-theme-readtheorg.setup
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href=".style_w_link_button.css" />
+#+MACRO: dummy_link @@html:<a href="#">$1</a>@@
+
+# for style.css, never move from here
+[[../d7_eq_manip_2/readme.html][prev_button]]
+[[../canvas.html][up_button]]
+[[../d0_anounce/readme.html][next_button]]
+# for a real link rewrite usual [[\url][]]
+
+| 年度 | 種別  | 問題          | 解答例               | 参考資料       |
+| 2024 | pair  | [[./24_pair/24_pair.ipynb][.ipynb]],[[./24_pair/24_pair_np.ipynb][.ipynb]] | [[./24_pair/24_pair_ans.ipynb][.ipynb]],[[./24_pair/24_pair_ans_np.ipynb][.ipynb]],[[./24_pair/24_pair_np_ans.ipynb][.ipynb]] | [[./24_pair/24_pair_reference.pdf][.pdf]]           |
+| 2024 | final | [[./24_final/24_final.ipynb][.ipynb]]        | [[./24_final/24_final_ans.ipynb][.ipynb]]               | [[./24_final/24_final_reference.pdf][.pdf]]           |
+| 2023 | pair  | [[./23_pair/23_pair.ipynb][.ipynb]]        |                      | [[./23_pair/23_pair_references.pdf][.pdf]]           |
+| 2022 | pre   | [[./22_pre/21_pair.ipynb][.ipynb]]        | [[./22_pre/21_pair_ans.ipynb][.ipynb]]               | [[./22_pre/21_pair_reference.pdf][.pdf]]           |
+| 2022 | pair  | [[./22_pair/22_pair.ipynb][.ipynb]]        | [[./22_pair/22_pair_ans.ipynb][.ipynb]]               |                |
+| 2021 | pre   | [[./21_pre/exam21_pre.ipynb][.ipynb]]        | [[./21_pre/exam21_pre_ans.ipynb][.ipynb]]               | [[./21_pre/exam21_pre_references.pdf][.pdf]]           |
+| 2021 | pair  | [[./21_pair/21_pair.ipynb][.ipynb]]        | [[./21_pair/21_pair_ans.ipynb][.ipynb]]               | [[./21_pair/21_pair_reference.pdf][.pdf]]           |
+| 2020 | pre   | [[./20_pre/20_pre.ipynb][.ipynb]]        | [[./20_pre/20_pre_ans.ipynb][.ipynb]]               | [[./20_pre/20_pre_ref.pdf][.pdf]]           |
+| 2020 | pair  | [[./20_pair/20_pair.ipynb][.ipynb]]        | [[./20_pair/20_pair_ans.ipynb][.ipynb]],[[./20_pair/25_pair_ans.ipynb][.ipynb]]        | [[./20_pair/20_18IIB_no2_ref.pdf][.pdf]],[[./20_pair/20_pair_ref.pdf][.pdf]],[[./20_pair/20_ref_ito_python_machine_learning_text.pdf][.pdf]] |
+| 2019 | pair  |               | [[./19_pair/19_1_pair_ans.ipynb][.ipynb]]               | [[./19_pair/19_1_pair_ref.pdf][.pdf]]           |
+| 2018 | pre   | [[./18_pre/exam18_0_pre.ipynb][.ipynb]]        | [[./18_pre/exam18_0_pre_ans.ipynb][.ipynb]]               | [[./18_pre/exam18_0_pre_ref.pdf][.pdf]]           |
+| 2018 | pair  | [[./18_pair/exam18_1_pair.ipynb][.ipynb]]        |                      | [[./18_pair/exam18_1_pair_references.pdf][.pdf]]           |
+| 2018 | final | [[./18_final/18_2_final.ipynb][.ipynb]]        |                      | [[./18_final/18_2_final_ref.pdf][.pdf]]           |
+| 2017 | pre   | [[./17_pre/17_pre.ipynb][.ipynb]]        | [[./17_pre/17_pre_ans.ipynb][.ipynb]]               | [[./17_pre/17_pre_references.pdf][.pdf]]           |
+| 2017 | pair  |               | [[./17_pair/exam17_1_pair_ans.ipynb][.ipynb]]               | [[./17_pair/exam17_1_pair_ref.pdf][.pdf]]           |
+| 2017 | final |               | [[./17_final/exam17_2_final_ans.ipynb][.ipynb]]               | [[./17_final/exam17_2_final_ref.pdf][.pdf]]           |
+| 2016 | pair  |               | [[./16_pair/exam16_1_pair_ans.ipynb][.ipynb]]               | [[./16_pair/exam16_1_pair_references.pdf][.pdf]]           |
+
+

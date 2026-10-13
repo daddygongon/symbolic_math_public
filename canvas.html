@@ -29,13 +29,46 @@ ctx.imageSmoothingQuality = 'high'; // 画像の描画品質を最高に設定
 // 1. データ定義（Rubyで生成）
 const nodes = [
   {
+    "id": 10,
+    "name": "d7 old exams",
+    "type": "icon",
+    "file_path": "d7_old_exams/readme.html",
+    "icon_path": "d7_old_exams/dummy_icon.png",
+    "x": 723,
+    "y": 477,
+    "color": "green",
+    "fixed": true
+  },
+  {
+    "id": 9,
+    "name": "d7 equation manipulation 2",
+    "type": "icon",
+    "file_path": "d7_eq_manip_2/readme.html",
+    "icon_path": "d7_eq_mainp_2/dummy_icon.png",
+    "x": 582,
+    "y": 477,
+    "color": "green",
+    "fixed": true
+  },
+  {
+    "id": 8,
+    "name": "d7 equation manipulation",
+    "type": "icon",
+    "file_path": "d6_eq_manip/readme.html",
+    "icon_path": "d6_eq_manip/dummy_icon.png",
+    "x": 398,
+    "y": 476,
+    "color": "green",
+    "fixed": true
+  },
+  {
     "id": 7,
     "name": "d5 1020 la_basic",
     "type": "icon",
     "file_path": "d5_la_basic/readme.html",
     "icon_path": "d5_la_basic/draw_four_spaces.004.png",
-    "x": 674,
-    "y": 281,
+    "x": 672,
+    "y": 292,
     "color": "green",
     "fixed": true
   },
@@ -45,8 +78,8 @@ const nodes = [
     "type": "icon",
     "file_path": "d4_la_breast_cancer/readme.html",
     "icon_path": "d4_la_breast_cancer/dummy_icon.png",
-    "x": 518,
-    "y": 281,
+    "x": 517,
+    "y": 292,
     "color": "green",
     "fixed": true
   },
@@ -56,8 +89,8 @@ const nodes = [
     "type": "icon",
     "file_path": "d3_diff_int/readme.html",
     "icon_path": "d3_diff_int/d3_diff_int_head.png",
-    "x": 674,
-    "y": 129,
+    "x": 574,
+    "y": 105,
     "color": "green",
     "fixed": true
   },
@@ -67,8 +100,8 @@ const nodes = [
     "type": "icon",
     "file_path": "d2_log/readme.html",
     "icon_path": "d2_log/d2_log_head.png",
-    "x": 529,
-    "y": 128,
+    "x": 436,
+    "y": 108,
     "color": "green",
     "fixed": true
   },
@@ -78,8 +111,8 @@ const nodes = [
     "type": "icon",
     "file_path": "d1_init/readme.html",
     "icon_path": "d1_init/d1_init.001.png",
-    "x": 149,
-    "y": 245,
+    "x": 185,
+    "y": 153,
     "color": "green",
     "fixed": true
   },
@@ -89,8 +122,8 @@ const nodes = [
     "type": "icon",
     "file_path": "d0_anounce/readme.html",
     "icon_path": "d0_anounce/dummy_icon.png",
-    "x": 161,
-    "y": 142,
+    "x": 130,
+    "y": 245,
     "color": "green",
     "fixed": true
   },
@@ -100,8 +133,8 @@ const nodes = [
     "type": "dir",
     "file_path": ".",
     "icon_path": ".semi_lattice/icons/folder.png",
-    "x": 332,
-    "y": 226,
+    "x": 276,
+    "y": 302,
     "color": "green",
     "fixed": true
   }
@@ -130,6 +163,18 @@ const edges = [
   {
     "from": 6,
     "to": 7
+  },
+  {
+    "from": 1,
+    "to": 8
+  },
+  {
+    "from": 8,
+    "to": 9
+  },
+  {
+    "from": 9,
+    "to": 10
   }
 ];
 
