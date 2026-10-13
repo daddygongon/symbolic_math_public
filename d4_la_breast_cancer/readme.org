@@ -21,7 +21,11 @@
 線形代数の応用として，乳がんの自動検出器を作成してもらいます．
 科学的には古いアプローチですが，何をしているのかが直感的なので，
 ぜひ理解に努めてください．
+|                | ipynb                      | github |
+|----------------+----------------------------+--------|
 | 今週提出の宿題 | [[file:linear_algebra_scipy.ipynb][linear_algebra_scipy.ipynb]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/linear_algebra_scipy.ipynb][github]] |
+|----------------+----------------------------+--------|
+| 今週提出の課題 | [[file:gw3_ex.ipynb][gw3_ex.ipynb]]               | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/gw3_ex.ipynb][github]] |
 | 補足資料1      | [[file:gw3_breast_cancer.ipynb][gw3_breast_cancer.ipynb]]    | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/gw3_breast_cancer.ipynb][github]] |
 | 補足資料2      | [[file:python_files_and_dir.ipynb][ファイル操作]]               | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d4_la_breast_cancer/python_files_and_dir.ipynb][github]] |
 
