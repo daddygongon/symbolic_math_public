@@ -10,17 +10,20 @@ Dir.glob('*_*').reverse.each do |dir|
     year, head = dir.split("_")
     Dir.glob("*.*").each do |file|
       ext = File.extname(file)
-      next if %w[.tex .bb .png .html .mw].include?(ext)
+      next if %w[.tex .bb .png .html .mw .org].include?(ext)
       link = "[[#{['.', dir, file].join('/')}][#{ext}]]"
+      github_link = "[[#{['https://github.com/daddygongon/symbolic_math_public/blob/main/d7_old_exams', dir, file].join('/')}][github]]"
       case file
       when /ans/
         next if ".pdf".include?(ext)
         line_cont[:ans] << link
+        line_cont[:ans] << github_link
       when /ref/
         line_cont[:ref] << link
       else
         next if ".pdf".include?(ext)
         line_cont[:prob] << link
+        line_cont[:prob] << github_link
       end
     end
     ['20'+year,head, line_cont[:prob].join(','),
