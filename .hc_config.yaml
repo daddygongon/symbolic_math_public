@@ -1,7 +1,7 @@
 ---
 :year: 2026
 :lecture: symbolic_math
-:source_html: symbolic_math_hc.html
+:source_html: canvas.html #symbolic_math_hc.html
 :glob_extensions: d*/*.html
 :public_repository_dir: ../symbolic_math_public
 :server_info:
