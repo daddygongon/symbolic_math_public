@@ -5,8 +5,8 @@
   :type: dir
   :file_path: "."
   :icon_path:
-  :x: 276
-  :y: 302
+  :x: 322
+  :y: 276
   :color: green
   :fixed: true
 - :id: 2
@@ -14,8 +14,8 @@
   :type: icon
   :file_path: d0_anounce/readme.html
   :icon_path: d0_anounce/dummy_icon.png
-  :x: 130
-  :y: 245
+  :x: 143
+  :y: 233
   :color: green
   :fixed: true
 - :id: 3
@@ -23,8 +23,8 @@
   :type: icon
   :file_path: d1_init/readme.html
   :icon_path: d1_init/d1_init.001.png
-  :x: 185
-  :y: 153
+  :x: 186
+  :y: 147
   :color: green
   :fixed: true
 - :id: 4
@@ -32,8 +32,8 @@
   :type: icon
   :file_path: d2_log/readme.html
   :icon_path: d2_log/d2_log_head.png
-  :x: 436
-  :y: 108
+  :x: 532
+  :y: 87
   :color: green
   :fixed: true
 - :id: 5
@@ -41,8 +41,8 @@
   :type: icon
   :file_path: d3_diff_int/readme.html
   :icon_path: d3_diff_int/d3_diff_int_head.png
-  :x: 574
-  :y: 105
+  :x: 663
+  :y: 85
   :color: green
   :fixed: true
 - :id: 6
@@ -50,8 +50,8 @@
   :type: icon
   :file_path: d4_la_breast_cancer/readme.html
   :icon_path: d4_la_breast_cancer/dummy_icon.png
-  :x: 517
-  :y: 292
+  :x: 510
+  :y: 242
   :color: green
   :fixed: true
 - :id: 7
@@ -59,35 +59,35 @@
   :type: icon
   :file_path: d5_la_basic/readme.html
   :icon_path: d5_la_basic/draw_four_spaces.004.png
-  :x: 672
-  :y: 292
+  :x: 683
+  :y: 242
   :color: green
   :fixed: true
 - :id: 8
-  :name: d7 equation manipulation
+  :name: d6 数式変形-I
   :type: icon
   :file_path: d6_eq_manip/readme.html
   :icon_path: d6_eq_manip/dummy_icon.png
-  :x: 398
-  :y: 476
+  :x: 524
+  :y: 387
   :color: green
   :fixed: true
 - :id: 9
-  :name: d7 equation manipulation 2
+  :name: d7 数式変形-II
   :type: icon
   :file_path: d7_eq_manip_2/readme.html
   :icon_path: d7_eq_mainp_2/dummy_icon.png
-  :x: 582
-  :y: 477
+  :x: 686
+  :y: 401
   :color: green
   :fixed: true
 - :id: 10
-  :name: d7 old exams
+  :name: d7 過去問
   :type: icon
   :file_path: d7_old_exams/readme.html
   :icon_path: d7_old_exams/dummy_icon.png
-  :x: 723
-  :y: 477
+  :x: 720
+  :y: 524
   :color: green
   :fixed: true
 :edges:
@@ -110,11 +110,11 @@
   # from: d4 1013 la_breast_cancer, to: d5 1020 la_basic
   :to: 7
 - :from: 1
-  # from: hyper_card/, to: d7 equation manipulation
+  # from: hyper_card/, to: d6 数式変形-I
   :to: 8
 - :from: 8
-  # from: d7 equation manipulation, to: d7 equation manipulation 2
+  # from: d6 数式変形-I, to: d7 数式変形-II
   :to: 9
 - :from: 9
-  # from: d7 equation manipulation 2, to: d7 old exams
+  # from: d7 数式変形-II, to: d7 過去問
   :to: 10

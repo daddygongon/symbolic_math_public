@@ -41,6 +41,7 @@ AI的には古いアプローチですが，何をしているのかが直感的
 | （次週提出の)宿題 | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/linear_algebra_sympy.ipynb][github/linear_algebra_sympy.ipynb]] |
 |                   | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/four_spaces_qr.ipynb][github/four_spaces_qr.ipynb]]       |
 
+
 - [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/IQCOB6Hl1QqUSqtKEtfjXRzjAfKLLc5bwzuH5RUKrHLTwKE?e=Uci1tX][行列の４基本部分空間(Strang21_four_basic_subspaces.pdf)]]
 
 
