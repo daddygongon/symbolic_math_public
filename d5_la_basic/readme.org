@@ -24,19 +24,20 @@ sympyもあります．
 これを使って行列のshape, 基本４空間，QR分解によるフィッティングを
 理解してもらいます．
 * 今週提出の課題
-|--------------+-----------------------------------+--------|
-| 先週の宿題   | [[file:./linear_algebra_sympy.ipynb]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/linear_algebra_sympy.ipynb][github]] |
-| 先週の宿題   | [[file:./four_spaces_qr.ipynb]]       | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/four_spaces_qr.ipynb][github]] |
-|--------------+-----------------------------------+--------|
-| グループ課題 | gw4_svd_vs_qr.ipynb               |        |
-| 解答例       | gw4_svd_vs_qr_ans.ipynb           |        |
+
+| 先週の宿題       | [[file:./linear_algebra_sympy.ipynb]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/linear_algebra_sympy.ipynb][github]] |
+| 先週の宿題       | [[file:./four_spaces_qr.ipynb]]       | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/four_spaces_qr.ipynb][github]] |
+| 先週の宿題解答例 | [[file:./four_spaces_qr_ans.ipynb]]   | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/four_spaces_qr_ans.ipynb][github]] |
+| グループ課題     | [[file:./gw4_svd_vs_qr_sp.ipynb]]     | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/gw4_svd_vs_qr_sp.ipynb][github]] |
+| 解答例           | gw4_svd_vs_qr_sp_ans.ipynb        |        |
 
 # | グループ課題      | [[gw4_page_rank.ipynb]]                  | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_page_rank.ipynb][github]] |
 # | 補足資料          | [[gw4_pagerank_eigenvect_correct.ipynb]] | [[https://github.com/daddygongon/jupyter_num_calc/blob/main/symbolic_math/group_works/gw4_pagerank_eigenvect_correct.ipynb][github]] |
 
 
 * 次週提出宿題
-| （次週提出の)宿題 | [[file:equation_manipulation.ipynb]]  | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d5_la_basic/equation_manipulation.ipynb][github]] |
+| （次週提出の)宿題 | [[file:../d6_eq_manip/eq_manip.ipynb]]     | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d6_eq_manip/eq_manip.ipynb][github]] |
+| （次週提出の)宿題 | [[file:../d6_eq_manip/center_exams.ipynb]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d6_eq_manip/center_exams.ipynb][github]] |
 
 参考資料
 - [[https://kwanseio365-my.sharepoint.com/:b:/g/personal/cru32369_kwansei_ac_jp/IQCOB6Hl1QqUSqtKEtfjXRzjAfKLLc5bwzuH5RUKrHLTwKE?e=Uci1tX][行列の４基本部分空間(Strang21_four_basic_subspaces.pdf)]]

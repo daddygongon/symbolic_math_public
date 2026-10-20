@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="jp" xml:lang="jp">
 <head>
-<!-- 2026-10-13 Tue 17:46 -->
+<!-- 2026-10-16 Fri 16:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>d1_0922 initial</title>
@@ -203,7 +203,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org33ee5f1">1. 宿題</a></li>
+<li><a href="#orgb7c134b">1. 宿題</a></li>
+<li><a href="#orgc25b741">2. jupyter notebookの新設定</a>
+<ul>
+<li><a href="#org49934d8">2.1. table of contents</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -263,8 +268,8 @@
 </tr>
 </tbody>
 </table>
-<div id="outline-container-org33ee5f1" class="outline-2">
-<h2 id="org33ee5f1"><span class="section-number-2">1.</span> 宿題</h2>
+<div id="outline-container-orgb7c134b" class="outline-2">
+<h2 id="orgb7c134b"><span class="section-number-2">1.</span> 宿題</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li>python, jupyter notebookをBYODにinstall</li>
@@ -276,10 +281,65 @@
 </ul>
 </div>
 </div>
+<div id="outline-container-orgc25b741" class="outline-2">
+<h2 id="orgc25b741"><span class="section-number-2">2.</span> jupyter notebookの新設定</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org49934d8" class="outline-3">
+<h3 id="org49934d8"><span class="section-number-3">2.1.</span> table of contents</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+原因はほぼ判明しました．
+</p>
+
+<ul class="org-ul">
+<li>新しいAnaconda：Notebook 7.5.7，JupyterLab 4.5.9</li>
+<li>古いAnaconda：Notebook 6.5.2</li>
+<li>旧設定には=toc2/main: true=が残っている</li>
+<li>しかし，旧=toc2=拡張本体は新環境に存在しない</li>
+</ul>
+
+<p>
+Notebook
+7では旧=toc2=を再インストールする必要はありません．目次は標準機能として組み込まれています．一方，Notebook
+6用の拡張機能はNotebook
+7とは互換性がありません．<a href="https://jupyter-notebook.readthedocs.io/en/v7.5.1/migrating/frontend-extensions.html">Notebook 7公式説明</a>
+</p>
+
+<p>
+まず，ノートブックを開いた状態で次を試してください．
+</p>
+
+<ol class="org-ol">
+<li>上部メニューの=View=を開く．</li>
+<li>=Show Left Sidebar=があれば選択する．</li>
+<li>=Table of Contents=を選択する．</li>
+</ol>
+
+<p>
+または，=Control + Shift + K=で目次パネルを直接開けます．目次はNotebook
+7で標準搭載され，通常は左サイドバーに表示されます．<a href="https://jupyter-notebook.readthedocs.io/en/v7.0.0/notebook_7_features.html">Jupyter公式説明</a>
+</p>
+
+<p>
+なお，現在は新旧2つのAnacondaが残っています．
+</p>
+
+<ul class="org-ul">
+<li>新：=/opt/anaconda3=</li>
+<li>旧：=/Users/bob/anaconda3=</li>
+</ul>
+
+<p>
+今後の環境混在を避けるため，どちらからJupyterを起動しているかは意識した方がよさそうです．まずは=View=メニューに=Table of Contents=があるか確認してください．
+</p>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Shigeto R. Nishitani</p>
-<p class="date">Created: 2026-10-13 Tue 17:46</p>
+<p class="date">Created: 2026-10-16 Fri 16:40</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
