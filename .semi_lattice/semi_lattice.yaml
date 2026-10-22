@@ -5,8 +5,8 @@
   :type: dir
   :file_path: "."
   :icon_path:
-  :x: 322
-  :y: 276
+  :x: 233
+  :y: 297
   :color: green
   :fixed: true
 - :id: 2
@@ -14,8 +14,8 @@
   :type: icon
   :file_path: d0_anounce/readme.html
   :icon_path: d0_anounce/dummy_icon.png
-  :x: 143
-  :y: 233
+  :x: 104
+  :y: 138
   :color: green
   :fixed: true
 - :id: 3
@@ -23,8 +23,8 @@
   :type: icon
   :file_path: d1_init/readme.html
   :icon_path: d1_init/d1_init.001.png
-  :x: 186
-  :y: 147
+  :x: 91
+  :y: 249
   :color: green
   :fixed: true
 - :id: 4
@@ -32,8 +32,8 @@
   :type: icon
   :file_path: d2_log/readme.html
   :icon_path: d2_log/d2_log_head.png
-  :x: 532
-  :y: 87
+  :x: 324
+  :y: 123
   :color: green
   :fixed: true
 - :id: 5
@@ -41,8 +41,8 @@
   :type: icon
   :file_path: d3_diff_int/readme.html
   :icon_path: d3_diff_int/d3_diff_int_head.png
-  :x: 663
-  :y: 85
+  :x: 471
+  :y: 123
   :color: green
   :fixed: true
 - :id: 6
@@ -50,8 +50,8 @@
   :type: icon
   :file_path: d4_la_breast_cancer/readme.html
   :icon_path: d4_la_breast_cancer/dummy_icon.png
-  :x: 510
-  :y: 242
+  :x: 484
+  :y: 254
   :color: green
   :fixed: true
 - :id: 7
@@ -59,26 +59,26 @@
   :type: icon
   :file_path: d5_la_basic/readme.html
   :icon_path: d5_la_basic/draw_four_spaces.004.png
-  :x: 683
-  :y: 242
+  :x: 664
+  :y: 252
   :color: green
   :fixed: true
 - :id: 8
-  :name: d6 数式変形-I
+  :name: d6 1027 数式変形-I
   :type: icon
   :file_path: d6_eq_manip/readme.html
   :icon_path: d6_eq_manip/dummy_icon.png
-  :x: 524
-  :y: 387
+  :x: 364
+  :y: 402
   :color: green
   :fixed: true
 - :id: 9
-  :name: d7 数式変形-II
+  :name: d7 1110 数式変形-II
   :type: icon
   :file_path: d7_eq_manip_2/readme.html
   :icon_path: d7_eq_mainp_2/dummy_icon.png
-  :x: 686
-  :y: 401
+  :x: 535
+  :y: 409
   :color: green
   :fixed: true
 - :id: 10
@@ -86,16 +86,16 @@
   :type: icon
   :file_path: d7_old_exams/readme.html
   :icon_path: d7_old_exams/dummy_icon.png
-  :x: 720
-  :y: 524
+  :x: 637
+  :y: 516
   :color: green
   :fixed: true
 :edges:
 - :from: 1
   # from: hyper_card/, to: アナウンス, link
   :to: 2
-- :from: 1
-  # from: hyper_card/, to: d1_0922 initial
+- :from: 2
+  # from: アナウンス, link, to: d1_0922 initial
   :to: 3
 - :from: 1
   # from: hyper_card/, to: d2_0929 対数
@@ -110,11 +110,11 @@
   # from: d4 1013 la_breast_cancer, to: d5 1020 la_basic
   :to: 7
 - :from: 1
-  # from: hyper_card/, to: d6 数式変形-I
+  # from: hyper_card/, to: d6 1027 数式変形-I
   :to: 8
 - :from: 8
-  # from: d6 数式変形-I, to: d7 数式変形-II
+  # from: d6 1027 数式変形-I, to: d7 1110 数式変形-II
   :to: 9
 - :from: 9
-  # from: d7 数式変形-II, to: d7 過去問
+  # from: d7 1110 数式変形-II, to: d7 過去問
   :to: 10

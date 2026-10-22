@@ -35,12 +35,12 @@
   :file_path: d5_la_basic/readme.html
   :icon_path: d5_la_basic/draw_four_spaces.004.png
 - :id: 8
-  :name: d6 数式変形-I
+  :name: d6 1027 数式変形-I
   :type: icon
   :file_path: d6_eq_manip/readme.html
   :icon_path: d6_eq_manip/dummy_icon.png
 - :id: 9
-  :name: d7 数式変形-II
+  :name: d7 1110 数式変形-II
   :type: icon
   :file_path: d7_eq_manip_2/readme.html
   :icon_path: d7_eq_mainp_2/dummy_icon.png
