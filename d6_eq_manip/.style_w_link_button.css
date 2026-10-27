@@ -100,6 +100,13 @@ table tbody tr:nth-child(even) td {
     color: var(--secondary-foreground) !important;
 }
 
+/* 本文画像は原寸を超えて拡大せず，大きな画像だけを読みやすい幅に収める */
+#content img {
+    width: auto;
+    max-width: min(100%, 800px);
+    height: auto;
+}
+
 /* ナビゲーションボタン（prev，up，next） */
 #content > p > a {
     display: inline-block;

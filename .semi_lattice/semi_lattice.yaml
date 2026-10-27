@@ -31,7 +31,7 @@
   :name: d2_0929 対数
   :type: icon
   :file_path: d2_log/readme.html
-  :icon_path: d2_log/d2_log_head.png
+  :icon_path: d2_log/dummy_icon.png
   :x: 324
   :y: 123
   :color: green
@@ -40,7 +40,7 @@
   :name: d3 1006 微積分
   :type: icon
   :file_path: d3_diff_int/readme.html
-  :icon_path: d3_diff_int/d3_diff_int_head.png
+  :icon_path: d3_diff_int/dummy_icon.png
   :x: 471
   :y: 123
   :color: green

@@ -15,7 +15,7 @@
 # for a real link rewrite usual [[\url][]]
 
 
-| [[file:./d3_diff_int_head.png]]
+| [[file:./dummy_icon.png]]
 
 * d3_1006:微積(diff and int)
 ** 教材(ipynbs)

@@ -16,7 +16,8 @@
 
 * 今週提出課題
 | [[file:./dummy_icon.png]]
-| がん細胞の顕微鏡写真.
+| fig. がん細胞の顕微鏡写真.
+| [[http://people.idsia.ch/~juergen/deeplearningwinsMICCAIgrandchallenge.html][source: http link]]
 
 線形代数の応用として，乳がんの自動検出器を作成してもらいます．
 AI的には古いアプローチですが，何をしているのかが直感的なので，
