@@ -1,0 +1,29 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: d8 1117 : ペア試験リハーサル
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/setup/html-theme-readtheorg.setup
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href=".style_w_link_button.css" />
+#+MACRO: dummy_link @@html:<a href="#">$1</a>@@
+
+# for style.css, never move from here
+[[../d7_old_exams/readme.html][prev_button]]
+[[../canvas.html][up_button]]
+[[../d0_anounce/readme.html][next_button]]
+# for a real link rewrite usual [[\url][]]
+
+# | [[file:./dummy_icon.png]]
+* 今週提出の課題
+| グループ課題 |
+| 参考資料     |
+| 解答例       |
+
+
+# | グループ課題 | [[file:./25_final.ipynb]]   | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d8_reharsal/25_final.ipynb][github]] |
+# | 参考資料     | file:./25_final_ref.pdf |        |
+# | 解答例               | [[file:./25_final_ans.pdf]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d6_eq_manip/gw5_line_distance_ans.ipynb][github]] |
+
+採点はしませんので，自分で確認ください．

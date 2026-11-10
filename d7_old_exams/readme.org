@@ -12,7 +12,7 @@
 # for style.css, never move from here
 [[../d7_eq_manip_2/readme.html][prev_button]]
 [[../canvas.html][up_button]]
-[[../d0_anounce/readme.html][next_button]]
+[[../d8_reharsal/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
 | 年度 | 種別  | 問題                        | 解答例                                    | 参考資料       |

@@ -68,8 +68,8 @@
   :type: icon
   :file_path: d6_eq_manip/readme.html
   :icon_path: d6_eq_manip/dummy_icon.png
-  :x: 364
-  :y: 402
+  :x: 402
+  :y: 406
   :color: green
   :fixed: true
 - :id: 9
@@ -86,8 +86,17 @@
   :type: icon
   :file_path: d7_old_exams/readme.html
   :icon_path: d7_old_exams/dummy_icon.png
-  :x: 637
-  :y: 516
+  :x: 620
+  :y: 471
+  :color: green
+  :fixed: true
+- :id: 11
+  :name: d8 ペア試験リハ
+  :type: icon
+  :file_path: d8_reharsal/readme.html
+  :icon_path: d8_reharsal/dummy_icon.png
+  :x: 177
+  :y: 437
   :color: green
   :fixed: true
 :edges:
@@ -118,3 +127,6 @@
 - :from: 9
   # from: d7 1110 数式変形-II, to: d7 過去問
   :to: 10
+- :from: 1
+  # from: hyper_card/, to: d8 ペア試験リハ
+  :to: 11
