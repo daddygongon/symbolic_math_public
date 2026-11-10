@@ -1,6 +1,6 @@
 #+OPTIONS: ^:{}
 #+STARTUP: indent nolineimages overview num
-#+TITLE: mk_stack_dir
+#+TITLE: d6 1110 : 数式処理-II
 #+AUTHOR: Shigeto R. Nishitani
 #+EMAIL:     (concat "shigeto_nishitani@mac.com")
 #+LANGUAGE:  jp
@@ -15,6 +15,12 @@
 [[../d7_old_exams/readme.html][next_button]]
 # for a real link rewrite usual [[\url][]]
 
+* 今週提出の課題
 
-| [[file:./dummy_icon.png]]
+| グループ課題 | 予習課題と同じです．合計，３つか４つを今日提出してください． |
+| 宿題         | 試験に備えて，テキストを整理しておいてください．             |
+
+* 来週のリハーサル
+11/17はリハーサルです．ペアで解いてください．
+11/24が中間試験の本番．
 
