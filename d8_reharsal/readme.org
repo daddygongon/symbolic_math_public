@@ -17,9 +17,9 @@
 
 # | [[file:./dummy_icon.png]]
 * 今週提出の課題
-| グループ課題 | [[file:./25_final.ipynb]] | [[file:./25_final.pdf]]
-| 参考資料     | [[file:./25_final_ref.pdf]]
-| 解答例       |
+| グループ課題 | [[file:./25_final.ipynb]]   | [[file:./25_final.pdf]] |
+| 参考資料     | [[file:./25_final_ref.pdf]] | [[https://github.com/daddygongon/symbolic_math_public/blob/main/d8_reharsal/25_final.ipynb][github]]              |
+| 解答例       |                         |                     |
 
 
 
